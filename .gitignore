@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+\.idea/
+
+WikiDAT/wikidat/data/viwiki_dumps/20200801/
