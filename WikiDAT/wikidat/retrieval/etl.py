@@ -97,7 +97,7 @@ class RevisionHistoryETL(ETL):
         db_revs = MySQLDB(host='localhost', port=5306, user=self.db_user,
                           passwd=self.db_passw, db=self.db_name)
 
-        es_revs = Elasticsearch(['10.30.78.22'])
+        es_revs = Elasticsearch(['localhost'])
 
         db_revs.connect()
 
